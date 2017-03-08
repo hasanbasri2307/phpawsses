@@ -1,23 +1,24 @@
 {
-    "name": "hasanbasri2307/php-aws-ses",
-    "description": "Package for aws ses mail",
-    "type": "package",
-    "require": {
-        "php": ">=5.0.0",
-        "ext-curl": "*"
-    },
-    "license": "mit",
+    "name": "hasanbasri2307/phpawsses",
+    "description": "Send emails via Amazon Simple Email Service (SES) with REST-like interface",
+    "keywords": ["amazon", "email","aws","ses", "api", "rest"],
+    "type": "library",
+    "license": "BSD",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Hasan Basri",
-            "email": "hasanbasri2307@email.com",
-            "homepage": "http://hasanbasri.net"
+            "role": "developer"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "hasanbasri2307\\PhpAwsSes\\": "src/"
+            "PhpAwsSes\\": "src/"
         }
+    },
+    "require": {
+        "php": ">=5.0.0",
+        "ext-curl": "*"
     }
 }
