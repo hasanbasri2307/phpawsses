@@ -1,0 +1,23 @@
+{
+    "name": "hasanbasri2307/php-aws-ses",
+    "description": "Package for aws ses mail",
+    "type": "package",
+    "require": {
+        "php": ">=5.0.0",
+        "ext-curl": "*"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Hasan Basri",
+            "email": "hasanbasri2307@email.com",
+            "homepage": "http://hasanbasri.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "hasanbasri2307\\PhpAwsSes\\": "src/"
+        }
+    }
+}
