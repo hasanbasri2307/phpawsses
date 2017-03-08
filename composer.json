@@ -14,7 +14,7 @@
             "homepage": "http://hasanbasri.net"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "hasanbasri2307\\PhpAwsSes\\": "src/"
